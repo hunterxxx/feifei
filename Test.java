@@ -1,5 +1,7 @@
 package printtest;
 
 public class Test {
-    {System.out.println("hello");}
+    static void notCalling(){
+        System.out.println("hello");
+    }
 }
